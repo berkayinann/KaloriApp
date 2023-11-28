@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KaloriApp.DAL
+namespace KaloriApp.DAL.Context
 {
     public class AppDBContext : DbContext
     {
