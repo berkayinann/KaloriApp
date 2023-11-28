@@ -11,5 +11,8 @@ namespace KaloriApp.Domain.Entities.Recipes
         public string YemekAdi { get; set; }
         public double KaloriMiktari { get; set; }
         public string Kategori { get; set; }
+
+        
+        //sadasd
     }
 }
