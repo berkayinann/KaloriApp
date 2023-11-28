@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace KaloriApp.Domain.Entities.Recipes
 {
-    internal class Tarif
+    public class Tarif : BaseEntity
     {
+        public int YemekId { get; set; }
+        public string Metin { get; set; }
     }
 }
