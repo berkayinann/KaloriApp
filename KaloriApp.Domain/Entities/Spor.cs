@@ -16,5 +16,7 @@ namespace KaloriApp.Domain.Entities
 
         public double YakilanKalori { get; set; }
 
+        public ICollection<Rapor> Rapors { get; set; }
+
     }
 }
