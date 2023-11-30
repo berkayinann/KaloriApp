@@ -28,5 +28,9 @@ namespace KaloriApp.Domain.Entities
         public double Boy { get; set; }
 
         public List<Besin> AldigiBesinler { get; set; }
+
+        //one to one
+        public int RaporId { get; set; }
+        public Rapor Rapor { get; set; }
     }
 }

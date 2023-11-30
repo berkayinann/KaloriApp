@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace KaloriApp.Domain.Entities.Reports
+namespace KaloriApp.Domain.Entities
 {
     public class HaftalikRapor
     {

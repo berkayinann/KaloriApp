@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KaloriApp.Domain.Entities
 {
-    public class BaseEntity
+    public abstract class BaseEntity
     {
         public int ID { get; set; }
 
