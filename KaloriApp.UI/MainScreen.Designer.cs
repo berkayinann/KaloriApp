@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
+            cikisyapbtn = new Button();
+            besinbtn = new Button();
+            egzersizbtn = new Button();
+            raporbtn = new Button();
+            tarifbtn = new Button();
             groupBox1 = new GroupBox();
             textBox1 = new TextBox();
-            kryptonDateTimePicker1 = new Krypton.Toolkit.KryptonDateTimePicker();
+            dtphangigun = new Krypton.Toolkit.KryptonDateTimePicker();
             groupBox2 = new GroupBox();
             kryptonLabel1 = new Krypton.Toolkit.KryptonLabel();
             kryptonLabel2 = new Krypton.Toolkit.KryptonLabel();
@@ -45,95 +45,96 @@
             kryptonPictureBox1 = new Krypton.Toolkit.KryptonPictureBox();
             kryptonLabel5 = new Krypton.Toolkit.KryptonLabel();
             kryptonLabel6 = new Krypton.Toolkit.KryptonLabel();
-            kryptonTextBox1 = new Krypton.Toolkit.KryptonTextBox();
-            kryptonTextBox2 = new Krypton.Toolkit.KryptonTextBox();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
+            sutxtbox = new Krypton.Toolkit.KryptonTextBox();
+            uykutxtbox = new Krypton.Toolkit.KryptonTextBox();
+            sueklebtn = new Button();
+            uykueklebtn = new Button();
+            profiliniguncellebtn = new Button();
             panel1 = new Panel();
-            button9 = new Button();
-            button11 = new Button();
-            button10 = new Button();
+            expandbtn = new Button();
+            minimisebtn = new Button();
+            closebtn = new Button();
+            kryptonLabel7 = new Krypton.Toolkit.KryptonLabel();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)kryptonPictureBox1).BeginInit();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // cikisyapbtn
             // 
-            button1.BackColor = Color.Transparent;
-            button1.BackgroundImage = Properties.Resources.R;
-            button1.BackgroundImageLayout = ImageLayout.Zoom;
-            button1.Location = new Point(693, 342);
-            button1.Name = "button1";
-            button1.Size = new Size(46, 55);
-            button1.TabIndex = 0;
-            button1.UseVisualStyleBackColor = false;
+            cikisyapbtn.BackColor = Color.Transparent;
+            cikisyapbtn.BackgroundImage = Properties.Resources.R;
+            cikisyapbtn.BackgroundImageLayout = ImageLayout.Zoom;
+            cikisyapbtn.Location = new Point(693, 342);
+            cikisyapbtn.Name = "cikisyapbtn";
+            cikisyapbtn.Size = new Size(46, 55);
+            cikisyapbtn.TabIndex = 0;
+            cikisyapbtn.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // besinbtn
             // 
-            button2.BackColor = Color.Transparent;
-            button2.BackgroundImage = Properties.Resources.pngegg;
-            button2.BackgroundImageLayout = ImageLayout.Stretch;
-            button2.FlatAppearance.BorderColor = Color.White;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.ForeColor = SystemColors.ButtonFace;
-            button2.Location = new Point(78, 346);
-            button2.Name = "button2";
-            button2.Size = new Size(118, 51);
-            button2.TabIndex = 1;
-            button2.Text = "Besin";
-            button2.UseVisualStyleBackColor = false;
+            besinbtn.BackColor = Color.Transparent;
+            besinbtn.BackgroundImage = Properties.Resources.pngegg;
+            besinbtn.BackgroundImageLayout = ImageLayout.Stretch;
+            besinbtn.FlatAppearance.BorderColor = Color.White;
+            besinbtn.FlatAppearance.BorderSize = 0;
+            besinbtn.FlatStyle = FlatStyle.Flat;
+            besinbtn.ForeColor = SystemColors.ButtonFace;
+            besinbtn.Location = new Point(78, 346);
+            besinbtn.Name = "besinbtn";
+            besinbtn.Size = new Size(118, 51);
+            besinbtn.TabIndex = 1;
+            besinbtn.Text = "Besinlerim";
+            besinbtn.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // egzersizbtn
             // 
-            button3.BackColor = Color.Transparent;
-            button3.BackgroundImage = Properties.Resources.pngegg;
-            button3.BackgroundImageLayout = ImageLayout.Stretch;
-            button3.FlatAppearance.BorderColor = Color.White;
-            button3.FlatAppearance.BorderSize = 0;
-            button3.FlatStyle = FlatStyle.Flat;
-            button3.ForeColor = SystemColors.ButtonFace;
-            button3.Location = new Point(232, 346);
-            button3.Name = "button3";
-            button3.Size = new Size(118, 51);
-            button3.TabIndex = 2;
-            button3.Text = "Egzersiz";
-            button3.UseVisualStyleBackColor = false;
+            egzersizbtn.BackColor = Color.Transparent;
+            egzersizbtn.BackgroundImage = Properties.Resources.pngegg;
+            egzersizbtn.BackgroundImageLayout = ImageLayout.Stretch;
+            egzersizbtn.FlatAppearance.BorderColor = Color.White;
+            egzersizbtn.FlatAppearance.BorderSize = 0;
+            egzersizbtn.FlatStyle = FlatStyle.Flat;
+            egzersizbtn.ForeColor = SystemColors.ButtonFace;
+            egzersizbtn.Location = new Point(232, 346);
+            egzersizbtn.Name = "egzersizbtn";
+            egzersizbtn.Size = new Size(118, 51);
+            egzersizbtn.TabIndex = 2;
+            egzersizbtn.Text = "Egzersizlerim";
+            egzersizbtn.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // raporbtn
             // 
-            button4.BackColor = Color.Transparent;
-            button4.BackgroundImage = Properties.Resources.pngegg;
-            button4.BackgroundImageLayout = ImageLayout.Stretch;
-            button4.FlatAppearance.BorderColor = Color.White;
-            button4.FlatAppearance.BorderSize = 0;
-            button4.FlatStyle = FlatStyle.Flat;
-            button4.ForeColor = SystemColors.ButtonFace;
-            button4.Location = new Point(385, 346);
-            button4.Name = "button4";
-            button4.Size = new Size(118, 51);
-            button4.TabIndex = 3;
-            button4.Text = "Raporlar";
-            button4.UseVisualStyleBackColor = false;
+            raporbtn.BackColor = Color.Transparent;
+            raporbtn.BackgroundImage = Properties.Resources.pngegg;
+            raporbtn.BackgroundImageLayout = ImageLayout.Stretch;
+            raporbtn.FlatAppearance.BorderColor = Color.White;
+            raporbtn.FlatAppearance.BorderSize = 0;
+            raporbtn.FlatStyle = FlatStyle.Flat;
+            raporbtn.ForeColor = SystemColors.ButtonFace;
+            raporbtn.Location = new Point(385, 346);
+            raporbtn.Name = "raporbtn";
+            raporbtn.Size = new Size(118, 51);
+            raporbtn.TabIndex = 3;
+            raporbtn.Text = "Raporlarım";
+            raporbtn.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // tarifbtn
             // 
-            button5.BackColor = Color.Transparent;
-            button5.BackgroundImage = Properties.Resources.pngegg;
-            button5.BackgroundImageLayout = ImageLayout.Stretch;
-            button5.FlatAppearance.BorderColor = Color.White;
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.ForeColor = SystemColors.ButtonFace;
-            button5.Location = new Point(539, 346);
-            button5.Name = "button5";
-            button5.Size = new Size(118, 51);
-            button5.TabIndex = 4;
-            button5.Text = "Tarifler";
-            button5.UseVisualStyleBackColor = false;
+            tarifbtn.BackColor = Color.Transparent;
+            tarifbtn.BackgroundImage = Properties.Resources.pngegg;
+            tarifbtn.BackgroundImageLayout = ImageLayout.Stretch;
+            tarifbtn.FlatAppearance.BorderColor = Color.White;
+            tarifbtn.FlatAppearance.BorderSize = 0;
+            tarifbtn.FlatStyle = FlatStyle.Flat;
+            tarifbtn.ForeColor = SystemColors.ButtonFace;
+            tarifbtn.Location = new Point(539, 346);
+            tarifbtn.Name = "tarifbtn";
+            tarifbtn.Size = new Size(118, 51);
+            tarifbtn.TabIndex = 4;
+            tarifbtn.Text = "Tarifler";
+            tarifbtn.UseVisualStyleBackColor = false;
             // 
             // groupBox1
             // 
@@ -157,12 +158,12 @@
             textBox1.Size = new Size(187, 262);
             textBox1.TabIndex = 0;
             // 
-            // kryptonDateTimePicker1
+            // dtphangigun
             // 
-            kryptonDateTimePicker1.Location = new Point(539, 43);
-            kryptonDateTimePicker1.Name = "kryptonDateTimePicker1";
-            kryptonDateTimePicker1.Size = new Size(235, 21);
-            kryptonDateTimePicker1.TabIndex = 6;
+            dtphangigun.Location = new Point(539, 43);
+            dtphangigun.Name = "dtphangigun";
+            dtphangigun.Size = new Size(235, 21);
+            dtphangigun.TabIndex = 6;
             // 
             // groupBox2
             // 
@@ -238,115 +239,126 @@
             kryptonLabel6.TabIndex = 14;
             kryptonLabel6.Values.Text = "Ne kadar Dakika Uyudun?";
             // 
-            // kryptonTextBox1
+            // sutxtbox
             // 
-            kryptonTextBox1.InputControlStyle = Krypton.Toolkit.InputControlStyle.PanelClient;
-            kryptonTextBox1.Location = new Point(576, 129);
-            kryptonTextBox1.Name = "kryptonTextBox1";
-            kryptonTextBox1.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007BlueDarkMode;
-            kryptonTextBox1.Size = new Size(85, 20);
-            kryptonTextBox1.TabIndex = 15;
+            sutxtbox.InputControlStyle = Krypton.Toolkit.InputControlStyle.PanelClient;
+            sutxtbox.Location = new Point(576, 129);
+            sutxtbox.Name = "sutxtbox";
+            sutxtbox.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007BlueDarkMode;
+            sutxtbox.Size = new Size(85, 20);
+            sutxtbox.TabIndex = 15;
             // 
-            // kryptonTextBox2
+            // uykutxtbox
             // 
-            kryptonTextBox2.InputControlStyle = Krypton.Toolkit.InputControlStyle.PanelClient;
-            kryptonTextBox2.Location = new Point(576, 187);
-            kryptonTextBox2.Name = "kryptonTextBox2";
-            kryptonTextBox2.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007BlueDarkMode;
-            kryptonTextBox2.Size = new Size(85, 20);
-            kryptonTextBox2.TabIndex = 16;
+            uykutxtbox.InputControlStyle = Krypton.Toolkit.InputControlStyle.PanelClient;
+            uykutxtbox.Location = new Point(576, 187);
+            uykutxtbox.Name = "uykutxtbox";
+            uykutxtbox.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007BlueDarkMode;
+            uykutxtbox.Size = new Size(85, 20);
+            uykutxtbox.TabIndex = 16;
             // 
-            // button6
+            // sueklebtn
             // 
-            button6.BackColor = Color.Transparent;
-            button6.BackgroundImage = (Image)resources.GetObject("button6.BackgroundImage");
-            button6.BackgroundImageLayout = ImageLayout.Stretch;
-            button6.FlatAppearance.BorderSize = 0;
-            button6.FlatStyle = FlatStyle.Flat;
-            button6.Location = new Point(674, 129);
-            button6.Name = "button6";
-            button6.Size = new Size(28, 26);
-            button6.TabIndex = 17;
-            button6.UseVisualStyleBackColor = false;
+            sueklebtn.BackColor = Color.Transparent;
+            sueklebtn.BackgroundImage = (Image)resources.GetObject("sueklebtn.BackgroundImage");
+            sueklebtn.BackgroundImageLayout = ImageLayout.Stretch;
+            sueklebtn.FlatAppearance.BorderSize = 0;
+            sueklebtn.FlatStyle = FlatStyle.Flat;
+            sueklebtn.Location = new Point(674, 129);
+            sueklebtn.Name = "sueklebtn";
+            sueklebtn.Size = new Size(28, 26);
+            sueklebtn.TabIndex = 17;
+            sueklebtn.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // uykueklebtn
             // 
-            button7.BackColor = Color.Transparent;
-            button7.BackgroundImage = (Image)resources.GetObject("button7.BackgroundImage");
-            button7.BackgroundImageLayout = ImageLayout.Stretch;
-            button7.FlatAppearance.BorderSize = 0;
-            button7.FlatStyle = FlatStyle.Flat;
-            button7.Location = new Point(674, 187);
-            button7.Name = "button7";
-            button7.Size = new Size(28, 26);
-            button7.TabIndex = 18;
-            button7.UseVisualStyleBackColor = false;
+            uykueklebtn.BackColor = Color.Transparent;
+            uykueklebtn.BackgroundImage = (Image)resources.GetObject("uykueklebtn.BackgroundImage");
+            uykueklebtn.BackgroundImageLayout = ImageLayout.Stretch;
+            uykueklebtn.FlatAppearance.BorderSize = 0;
+            uykueklebtn.FlatStyle = FlatStyle.Flat;
+            uykueklebtn.Location = new Point(674, 187);
+            uykueklebtn.Name = "uykueklebtn";
+            uykueklebtn.Size = new Size(28, 26);
+            uykueklebtn.TabIndex = 18;
+            uykueklebtn.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // profiliniguncellebtn
             // 
-            button8.BackColor = Color.Transparent;
-            button8.BackgroundImage = Properties.Resources.pngegg;
-            button8.BackgroundImageLayout = ImageLayout.Stretch;
-            button8.FlatAppearance.BorderColor = Color.White;
-            button8.FlatAppearance.BorderSize = 0;
-            button8.FlatStyle = FlatStyle.Flat;
-            button8.ForeColor = SystemColors.ButtonFace;
-            button8.Location = new Point(576, 236);
-            button8.Name = "button8";
-            button8.Size = new Size(118, 51);
-            button8.TabIndex = 19;
-            button8.Text = "Profilini Güncele";
-            button8.UseVisualStyleBackColor = false;
+            profiliniguncellebtn.BackColor = Color.Transparent;
+            profiliniguncellebtn.BackgroundImage = Properties.Resources.pngegg;
+            profiliniguncellebtn.BackgroundImageLayout = ImageLayout.Stretch;
+            profiliniguncellebtn.FlatAppearance.BorderColor = Color.White;
+            profiliniguncellebtn.FlatAppearance.BorderSize = 0;
+            profiliniguncellebtn.FlatStyle = FlatStyle.Flat;
+            profiliniguncellebtn.ForeColor = SystemColors.ButtonFace;
+            profiliniguncellebtn.Location = new Point(576, 236);
+            profiliniguncellebtn.Name = "profiliniguncellebtn";
+            profiliniguncellebtn.Size = new Size(118, 51);
+            profiliniguncellebtn.TabIndex = 19;
+            profiliniguncellebtn.Text = "Profilini Güncele";
+            profiliniguncellebtn.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
             panel1.BackColor = Color.MediumBlue;
-            panel1.Controls.Add(button11);
-            panel1.Controls.Add(button10);
-            panel1.Controls.Add(button9);
+            panel1.Controls.Add(kryptonLabel7);
+            panel1.Controls.Add(minimisebtn);
+            panel1.Controls.Add(closebtn);
+            panel1.Controls.Add(expandbtn);
             panel1.Location = new Point(-4, -3);
             panel1.Name = "panel1";
             panel1.Size = new Size(807, 29);
             panel1.TabIndex = 20;
             // 
-            // button9
+            // expandbtn
             // 
-            button9.BackColor = Color.Transparent;
-            button9.BackgroundImage = (Image)resources.GetObject("button9.BackgroundImage");
-            button9.BackgroundImageLayout = ImageLayout.Stretch;
-            button9.FlatAppearance.BorderSize = 0;
-            button9.FlatStyle = FlatStyle.Flat;
-            button9.Location = new Point(740, 6);
-            button9.Name = "button9";
-            button9.Size = new Size(27, 20);
-            button9.TabIndex = 0;
-            button9.UseVisualStyleBackColor = false;
+            expandbtn.BackColor = Color.Transparent;
+            expandbtn.BackgroundImage = (Image)resources.GetObject("expandbtn.BackgroundImage");
+            expandbtn.BackgroundImageLayout = ImageLayout.Stretch;
+            expandbtn.FlatAppearance.BorderSize = 0;
+            expandbtn.FlatStyle = FlatStyle.Flat;
+            expandbtn.Location = new Point(740, 6);
+            expandbtn.Name = "expandbtn";
+            expandbtn.Size = new Size(27, 20);
+            expandbtn.TabIndex = 0;
+            expandbtn.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // minimisebtn
             // 
-            button11.BackColor = Color.Transparent;
-            button11.BackgroundImage = (Image)resources.GetObject("button11.BackgroundImage");
-            button11.BackgroundImageLayout = ImageLayout.Stretch;
-            button11.FlatAppearance.BorderSize = 0;
-            button11.FlatStyle = FlatStyle.Flat;
-            button11.Location = new Point(707, 6);
-            button11.Name = "button11";
-            button11.Size = new Size(27, 20);
-            button11.TabIndex = 2;
-            button11.UseVisualStyleBackColor = false;
+            minimisebtn.BackColor = Color.Transparent;
+            minimisebtn.BackgroundImage = (Image)resources.GetObject("minimisebtn.BackgroundImage");
+            minimisebtn.BackgroundImageLayout = ImageLayout.Stretch;
+            minimisebtn.FlatAppearance.BorderSize = 0;
+            minimisebtn.FlatStyle = FlatStyle.Flat;
+            minimisebtn.Location = new Point(707, 6);
+            minimisebtn.Name = "minimisebtn";
+            minimisebtn.Size = new Size(27, 20);
+            minimisebtn.TabIndex = 2;
+            minimisebtn.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // closebtn
             // 
-            button10.BackColor = Color.Transparent;
-            button10.BackgroundImage = (Image)resources.GetObject("button10.BackgroundImage");
-            button10.BackgroundImageLayout = ImageLayout.Stretch;
-            button10.FlatAppearance.BorderSize = 0;
-            button10.FlatStyle = FlatStyle.Flat;
-            button10.Location = new Point(773, 4);
-            button10.Name = "button10";
-            button10.Size = new Size(27, 20);
-            button10.TabIndex = 1;
-            button10.UseVisualStyleBackColor = false;
+            closebtn.BackColor = Color.Transparent;
+            closebtn.BackgroundImage = (Image)resources.GetObject("closebtn.BackgroundImage");
+            closebtn.BackgroundImageLayout = ImageLayout.Stretch;
+            closebtn.FlatAppearance.BorderSize = 0;
+            closebtn.FlatStyle = FlatStyle.Flat;
+            closebtn.Location = new Point(773, 4);
+            closebtn.Name = "closebtn";
+            closebtn.Size = new Size(27, 20);
+            closebtn.TabIndex = 1;
+            closebtn.UseVisualStyleBackColor = false;
+            // 
+            // kryptonLabel7
+            // 
+            kryptonLabel7.LabelStyle = Krypton.Toolkit.LabelStyle.BoldControl;
+            kryptonLabel7.Location = new Point(3, 6);
+            kryptonLabel7.Name = "kryptonLabel7";
+            kryptonLabel7.PaletteMode = Krypton.Toolkit.PaletteMode.Microsoft365Black;
+            kryptonLabel7.Size = new Size(74, 20);
+            kryptonLabel7.TabIndex = 14;
+            kryptonLabel7.Values.Text = "KaloriKolik";
             // 
             // MainScreen
             // 
@@ -356,21 +368,21 @@
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(800, 450);
             Controls.Add(panel1);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(kryptonTextBox2);
-            Controls.Add(kryptonTextBox1);
+            Controls.Add(profiliniguncellebtn);
+            Controls.Add(uykueklebtn);
+            Controls.Add(sueklebtn);
+            Controls.Add(uykutxtbox);
+            Controls.Add(sutxtbox);
             Controls.Add(kryptonLabel6);
             Controls.Add(kryptonLabel5);
             Controls.Add(groupBox2);
-            Controls.Add(kryptonDateTimePicker1);
+            Controls.Add(dtphangigun);
             Controls.Add(groupBox1);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(tarifbtn);
+            Controls.Add(raporbtn);
+            Controls.Add(egzersizbtn);
+            Controls.Add(besinbtn);
+            Controls.Add(cikisyapbtn);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Name = "MainScreen";
@@ -381,20 +393,21 @@
             groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)kryptonPictureBox1).EndInit();
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
+        private Button cikisyapbtn;
+        private Button besinbtn;
+        private Button egzersizbtn;
+        private Button raporbtn;
+        private Button tarifbtn;
         private GroupBox groupBox1;
         private TextBox textBox1;
-        private Krypton.Toolkit.KryptonDateTimePicker kryptonDateTimePicker1;
+        private Krypton.Toolkit.KryptonDateTimePicker dtphangigun;
         private GroupBox groupBox2;
         private Krypton.Toolkit.KryptonLabel kryptonLabel1;
         private Krypton.Toolkit.KryptonLabel kryptonLabel2;
@@ -403,14 +416,15 @@
         private Krypton.Toolkit.KryptonPictureBox kryptonPictureBox1;
         private Krypton.Toolkit.KryptonLabel kryptonLabel5;
         private Krypton.Toolkit.KryptonLabel kryptonLabel6;
-        private Krypton.Toolkit.KryptonTextBox kryptonTextBox1;
-        private Krypton.Toolkit.KryptonTextBox kryptonTextBox2;
-        private Button button6;
-        private Button button7;
-        private Button button8;
+        private Krypton.Toolkit.KryptonTextBox sutxtbox;
+        private Krypton.Toolkit.KryptonTextBox uykutxtbox;
+        private Button sueklebtn;
+        private Button uykueklebtn;
+        private Button profiliniguncellebtn;
         private Panel panel1;
-        private Button button9;
-        private Button button11;
-        private Button button10;
+        private Button expandbtn;
+        private Button minimisebtn;
+        private Button closebtn;
+        private Krypton.Toolkit.KryptonLabel kryptonLabel7;
     }
 }
