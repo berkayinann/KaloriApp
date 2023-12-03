@@ -50,20 +50,26 @@
             button6 = new Button();
             button7 = new Button();
             button8 = new Button();
+            panel1 = new Panel();
+            button9 = new Button();
+            button11 = new Button();
+            button10 = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)kryptonPictureBox1).BeginInit();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // button1
             // 
+            button1.BackColor = Color.Transparent;
             button1.BackgroundImage = Properties.Resources.R;
             button1.BackgroundImageLayout = ImageLayout.Zoom;
             button1.Location = new Point(693, 342);
             button1.Name = "button1";
             button1.Size = new Size(46, 55);
             button1.TabIndex = 0;
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
@@ -134,9 +140,9 @@
             groupBox1.BackColor = Color.DodgerBlue;
             groupBox1.BackgroundImageLayout = ImageLayout.Stretch;
             groupBox1.Controls.Add(textBox1);
-            groupBox1.Location = new Point(27, 21);
+            groupBox1.Location = new Point(28, 43);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(199, 291);
+            groupBox1.Size = new Size(199, 277);
             groupBox1.TabIndex = 5;
             groupBox1.TabStop = false;
             groupBox1.Text = "Öneriler";
@@ -153,7 +159,7 @@
             // 
             // kryptonDateTimePicker1
             // 
-            kryptonDateTimePicker1.Location = new Point(539, 21);
+            kryptonDateTimePicker1.Location = new Point(539, 43);
             kryptonDateTimePicker1.Name = "kryptonDateTimePicker1";
             kryptonDateTimePicker1.Size = new Size(235, 21);
             kryptonDateTimePicker1.TabIndex = 6;
@@ -168,9 +174,9 @@
             groupBox2.Controls.Add(kryptonLabel3);
             groupBox2.Controls.Add(kryptonLabel4);
             groupBox2.FlatStyle = FlatStyle.Flat;
-            groupBox2.Location = new Point(268, 21);
+            groupBox2.Location = new Point(269, 43);
             groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(199, 291);
+            groupBox2.Size = new Size(199, 277);
             groupBox2.TabIndex = 7;
             groupBox2.TabStop = false;
             groupBox2.Text = "Kişisel Bilgiler";
@@ -218,7 +224,7 @@
             // 
             // kryptonLabel5
             // 
-            kryptonLabel5.Location = new Point(576, 81);
+            kryptonLabel5.Location = new Point(576, 103);
             kryptonLabel5.Name = "kryptonLabel5";
             kryptonLabel5.Size = new Size(126, 20);
             kryptonLabel5.TabIndex = 13;
@@ -226,7 +232,7 @@
             // 
             // kryptonLabel6
             // 
-            kryptonLabel6.Location = new Point(576, 139);
+            kryptonLabel6.Location = new Point(576, 161);
             kryptonLabel6.Name = "kryptonLabel6";
             kryptonLabel6.Size = new Size(151, 20);
             kryptonLabel6.TabIndex = 14;
@@ -235,7 +241,7 @@
             // kryptonTextBox1
             // 
             kryptonTextBox1.InputControlStyle = Krypton.Toolkit.InputControlStyle.PanelClient;
-            kryptonTextBox1.Location = new Point(576, 107);
+            kryptonTextBox1.Location = new Point(576, 129);
             kryptonTextBox1.Name = "kryptonTextBox1";
             kryptonTextBox1.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007BlueDarkMode;
             kryptonTextBox1.Size = new Size(85, 20);
@@ -244,7 +250,7 @@
             // kryptonTextBox2
             // 
             kryptonTextBox2.InputControlStyle = Krypton.Toolkit.InputControlStyle.PanelClient;
-            kryptonTextBox2.Location = new Point(576, 165);
+            kryptonTextBox2.Location = new Point(576, 187);
             kryptonTextBox2.Name = "kryptonTextBox2";
             kryptonTextBox2.PaletteMode = Krypton.Toolkit.PaletteMode.Office2007BlueDarkMode;
             kryptonTextBox2.Size = new Size(85, 20);
@@ -257,7 +263,7 @@
             button6.BackgroundImageLayout = ImageLayout.Stretch;
             button6.FlatAppearance.BorderSize = 0;
             button6.FlatStyle = FlatStyle.Flat;
-            button6.Location = new Point(674, 107);
+            button6.Location = new Point(674, 129);
             button6.Name = "button6";
             button6.Size = new Size(28, 26);
             button6.TabIndex = 17;
@@ -270,7 +276,7 @@
             button7.BackgroundImageLayout = ImageLayout.Stretch;
             button7.FlatAppearance.BorderSize = 0;
             button7.FlatStyle = FlatStyle.Flat;
-            button7.Location = new Point(674, 165);
+            button7.Location = new Point(674, 187);
             button7.Name = "button7";
             button7.Size = new Size(28, 26);
             button7.TabIndex = 18;
@@ -285,12 +291,62 @@
             button8.FlatAppearance.BorderSize = 0;
             button8.FlatStyle = FlatStyle.Flat;
             button8.ForeColor = SystemColors.ButtonFace;
-            button8.Location = new Point(576, 214);
+            button8.Location = new Point(576, 236);
             button8.Name = "button8";
             button8.Size = new Size(118, 51);
             button8.TabIndex = 19;
             button8.Text = "Profilini Güncele";
             button8.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            panel1.BackColor = Color.MediumBlue;
+            panel1.Controls.Add(button11);
+            panel1.Controls.Add(button10);
+            panel1.Controls.Add(button9);
+            panel1.Location = new Point(-4, -3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(807, 29);
+            panel1.TabIndex = 20;
+            // 
+            // button9
+            // 
+            button9.BackColor = Color.Transparent;
+            button9.BackgroundImage = (Image)resources.GetObject("button9.BackgroundImage");
+            button9.BackgroundImageLayout = ImageLayout.Stretch;
+            button9.FlatAppearance.BorderSize = 0;
+            button9.FlatStyle = FlatStyle.Flat;
+            button9.Location = new Point(740, 6);
+            button9.Name = "button9";
+            button9.Size = new Size(27, 20);
+            button9.TabIndex = 0;
+            button9.UseVisualStyleBackColor = false;
+            // 
+            // button11
+            // 
+            button11.BackColor = Color.Transparent;
+            button11.BackgroundImage = (Image)resources.GetObject("button11.BackgroundImage");
+            button11.BackgroundImageLayout = ImageLayout.Stretch;
+            button11.FlatAppearance.BorderSize = 0;
+            button11.FlatStyle = FlatStyle.Flat;
+            button11.Location = new Point(707, 6);
+            button11.Name = "button11";
+            button11.Size = new Size(27, 20);
+            button11.TabIndex = 2;
+            button11.UseVisualStyleBackColor = false;
+            // 
+            // button10
+            // 
+            button10.BackColor = Color.Transparent;
+            button10.BackgroundImage = (Image)resources.GetObject("button10.BackgroundImage");
+            button10.BackgroundImageLayout = ImageLayout.Stretch;
+            button10.FlatAppearance.BorderSize = 0;
+            button10.FlatStyle = FlatStyle.Flat;
+            button10.Location = new Point(773, 4);
+            button10.Name = "button10";
+            button10.Size = new Size(27, 20);
+            button10.TabIndex = 1;
+            button10.UseVisualStyleBackColor = false;
             // 
             // MainScreen
             // 
@@ -299,6 +355,7 @@
             BackgroundImage = Properties.Resources.Blue_Minimalist_Monochrome_Simple_Presentation_Template;
             BackgroundImageLayout = ImageLayout.Zoom;
             ClientSize = new Size(800, 450);
+            Controls.Add(panel1);
             Controls.Add(button8);
             Controls.Add(button7);
             Controls.Add(button6);
@@ -315,6 +372,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             DoubleBuffered = true;
+            FormBorderStyle = FormBorderStyle.None;
             Name = "MainScreen";
             Text = "MainScreen";
             groupBox1.ResumeLayout(false);
@@ -322,6 +380,7 @@
             groupBox2.ResumeLayout(false);
             groupBox2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)kryptonPictureBox1).EndInit();
+            panel1.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
         }
@@ -349,5 +408,9 @@
         private Button button6;
         private Button button7;
         private Button button8;
+        private Panel panel1;
+        private Button button9;
+        private Button button11;
+        private Button button10;
     }
 }
