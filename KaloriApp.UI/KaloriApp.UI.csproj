@@ -9,6 +9,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Krypton.Toolkit.Nightly" Version="90.23.11.331-alpha" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\KaloriApp.DAL\KaloriApp.DAL.csproj" />
   </ItemGroup>
 
